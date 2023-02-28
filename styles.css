@@ -30,6 +30,11 @@
 
 body {
   background-color: var(--pale-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 body,
@@ -46,4 +51,22 @@ p,
 span,
 button {
   font-size: 18px;
+}
+
+main {
+  width: 46rem;
+  height: 32rem;
+  display: flex;
+}
+
+.result {
+  width: 50%;
+  height: inherit;
+  background-color: var(--light-royal-blue);
+}
+
+.summary {
+  width: 50%;
+  height: inherit;
+  background-color: var(--white);
 }

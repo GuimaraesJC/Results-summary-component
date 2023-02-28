@@ -59,6 +59,7 @@ button {
   display: flex;
   border-radius: 2rem;
   overflow: hidden;
+  background-color: var(--white);
 }
 
 .container section {
@@ -78,7 +79,6 @@ button {
 .summary {
   width: 50%;
   height: inherit;
-  background-color: var(--white);
   padding: 2.375rem 2.5rem 2.875rem;
 }
 

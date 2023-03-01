@@ -72,7 +72,7 @@ button {
 .result {
   width: 50%;
   height: inherit;
-  background: linear-gradient(var(--light-slate-blue) 0%, var(--light-royal-blue) 100%);
+  background: linear-gradient(var(--light-slate-blue) 0%, hsl(252, 100%, 63%) 0.01%, var(--light-royal-blue) 100%);
   border-radius: 2rem;
   padding: 2.375rem 3.375rem 2.875rem;
   align-items: center;
@@ -214,10 +214,6 @@ button {
 }
 
 @media (max-width: 48rem) {
-  body {
-    overflow-y: scroll;
-  }
-  
   .container {
     flex-direction: column;
     width: 100vw;
